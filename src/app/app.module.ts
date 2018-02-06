@@ -10,13 +10,15 @@ import { ItemService } from './services/item.service';
 import { AngularFirestore } from 'angularfire2/firestore';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AddItemComponent } from './components/add-item/add-item.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemsComponent,
     NavbarComponent,
-    AddItemComponent
+    AddItemComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
